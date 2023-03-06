@@ -17,6 +17,8 @@ msg.emit("demo"); // 1678080875920
 msg.off("demo", handle);
 // 卸载后再触发
 msg.emit("demo"); // undefined
+// 获取所有监听的key和内容
+msg.all()
 ```
 
 ```js
